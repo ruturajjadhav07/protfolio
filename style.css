@@ -1,0 +1,420 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #111;
+}
+
+/* Nav Section Starts */
+
+
+
+.sidenav {
+    height: 100%;
+    width: 331px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1d1919;
+    overflow-y: hidden;
+    padding-top: 10px;
+}
+
+
+.img {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+.img img {
+    border-radius: 50%;
+}
+
+
+.img-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.img-name h2 {
+    padding-top: 11px;
+    font-size: 26px;
+    font-weight: 100;
+    color: white;
+
+
+    /* for linear-gradient */
+    /* background: -webkit-linear-gradient(#ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: 2s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+
+.img-name h3 {
+    font-size: 18px;
+    font-weight: 100;
+    color: deeppink;
+}
+
+.sidenav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 51vh;
+    gap: 30px;
+    padding-left: 0px;
+    margin: 8px;
+    padding-right: 33px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: deeppink;
+    text-decoration: underline;
+}
+
+
+
+/* Nav Section Ends */
+
+
+/* Main Section Starts */
+
+
+section.main {
+    margin-left: 500px;
+    /* margin-top: 240px; */
+    font-weight: initial;
+    margin-right: 200px;
+}
+
+
+/* Home Section Starts */
+
+#home {
+    background-size: cover;
+    padding-top: 260px;
+    padding-bottom: 260px;
+    /* height: 100vh;
+    align-items: center;
+    justify-content: center; */
+}
+
+#home .greet {
+    font-size: 30px;
+    font-weight: initial;
+}
+
+#home .name {
+    font-size: 40px;
+    padding-bottom: 26px;
+    font-weight: initial;
+}
+
+#home .name1 {
+    font-size: 40px;
+    padding-bottom: 26px;
+    font-weight: initial;
+    color: #26FF8F;
+    /* color: #26FF; */
+}
+
+
+#home p {
+    font-size: 22px;
+    font-stretch: expanded;
+    letter-spacing: 0.9px;
+}
+
+/* Home Section Ends */
+
+
+
+
+
+/* About Section Starts */
+
+#about {
+    background-size: cover;
+    padding-top: 40px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#about h1.about {
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    /* color: #26FF; */
+    color: #26FF8F;
+}
+
+#about hr {
+    margin: 5px;
+}
+
+#about .bio h3 {
+    color: #26ff8f;
+    display: flex;
+    flex-direction: inherit;
+    gap: 10px;
+    margin: 7px;
+    padding-top: 10px;
+    font-weight: lighter;
+}
+
+
+#about button {
+    margin: 5px;
+    border-radius: 33px;
+    color: black;
+    background-color: #1d1919;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+#about button a {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+/* About Section Ends */
+
+
+
+/* Skills Section Starts */
+#skills {
+    padding-top: 40px;
+    height: 100vh;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skills h1#name {
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    /* color: #26FF; */
+    color: #26FF8F;
+}
+
+#skills hr {
+    margin: 5px;
+}
+
+.skills {
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 260px;
+}
+
+#skills h1.s {
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    /* color: #26FF; */
+    color: #26FF8F;
+}
+
+#skills hr {
+    margin: 5px;
+}
+
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding-inline: 76px;
+}
+
+h1.skillh1 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+/* Skills Section Ends */
+
+
+
+/* Portfolio Section Starts */
+
+#portfolio {
+    padding-top: 40px;
+    height: 100vh;
+}
+
+h1#pname {
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    color: #26FF8F;
+}
+
+hr {
+    margin: 5px;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 46px;
+    margin-inline: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.pmain {
+    margin-top: 60px;
+}
+
+.pmain img.pimg {
+    height: 160px;
+    width: 160px;
+    border-radius: 25%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+p.img-text {
+    text-align: center;
+}
+
+
+/* Portfolio Section Ends */
+
+
+
+/* Contact Section Starts */
+
+
+#contact {
+    padding-top: 40px;
+    height: 100vh;
+}
+
+
+#contact h1#cname {
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    /* color: #26FF; */
+    color: #26FF8F;
+}
+
+#contact hr {
+    margin: 5px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+    /* height: 100vh; */
+}
+
+.ch1 {
+    margin: 10px;
+}
+
+.c-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contact .c-contact span,
+a {
+    color: #26FF8F;
+    text-decoration: none;
+}
+
+#contact .ccolor {
+    color: #26FF8F;
+}
+
+#contact h1 {
+    font-size: 30px;
+    font-weight: initial;
+}
+
+
+/* Contact Section Ends */
+
+button.btn {
+    height: 0px;
+    width: 0px;
+    margin-top: 160px;
+    background-color: black;
+    /* border: 2px solid white; */
+    font-size: 48px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    margin-left: 800px;
+    color: black;
+    position: relative;
+}
+
+button.btn :hover {
+    cursor: pointer;
+}
+
+
+
+
+/* Main Section Ends */
+
+/* Css Ends Here */
